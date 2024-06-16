@@ -1,0 +1,9 @@
+window#player .player {
+    @include floating-widget;
+    @include spacing;
+
+    padding: $popover-padding * 1.4;
+
+    @include media;
+    background-color: black;
+}
