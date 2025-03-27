@@ -7,9 +7,6 @@
     auto-optimise-store = true;
   };
 
-  # camera
-  programs.droidcam.enable = true;
-
   # virtualisation
   programs.virt-manager.enable = true;
   virtualisation = {
