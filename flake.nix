@@ -19,7 +19,7 @@
           asztal = self.packages.x86_64-linux.default;
         };
         modules = [
-          ./nixos/nixos.nix
+          ./system/nixos/nixos.nix
           home-manager.nixosModules.home-manager
           {networking.hostName = "nixos";}
         ];
@@ -36,7 +36,7 @@
             nix.package = pkgs.nix;
             home.username = "demeter";
             home.homeDirectory = "/Users/demeter";
-            imports = [./macos/home.nix];
+            imports = [./system/macos/home.nix];
           })
         ];
       };

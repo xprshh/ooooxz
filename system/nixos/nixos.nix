@@ -42,21 +42,21 @@ in {
       home.username = username;
       home.homeDirectory = "/home/${username}";
       imports = [
-        ../home-manager/nvim.nix
-        ../home-manager/ags.nix
-        ../home-manager/blackbox.nix
-        ../home-manager/browser.nix
-        ../home-manager/dconf.nix
-        ../home-manager/distrobox.nix
-        ../home-manager/git.nix
-        ../home-manager/hyprland.nix
-        ../home-manager/lf.nix
-        ../home-manager/packages.nix
-        ../home-manager/sh.nix
-        ../home-manager/starship.nix
-        ../home-manager/theme.nix
-        ../home-manager/tmux.nix
-        ../home-manager/wezterm.nix
+        ../home/nvim.nix
+        ../home/ags.nix
+        ../home/blackbox.nix
+        ../home/browser.nix
+        ../home/dconf.nix
+        ../home/distrobox.nix
+        ../home/git.nix
+        ../home/hyprland.nix
+        ../home/lf.nix
+        ../home/packages.nix
+        ../home/sh.nix
+        ../home/starship.nix
+        ../home/theme.nix
+        ../home/tmux.nix
+        ../home/wezterm.nix
         ./home.nix
       ];
     };
