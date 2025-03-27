@@ -44,12 +44,6 @@
       "vm.dirty_writeback_centisecs" = 3000;
     };
 
-    # Enable power management
-    powerManagement = {
-      enable = true;
-      finegrained = true;
-    };
-
     # Enable Bluetooth
     hardware.bluetooth.enable = true;
     hardware.bluetooth.powerOnBoot = false;  # Saves power by default
@@ -71,11 +65,6 @@
       };
 
       modesetting.enable = true;
-
-      powerManagement = {
-        enable = true;
-        finegrained = true;
-      };
 
       open = true;
       nvidiaSettings = false; # GUI app disabled
